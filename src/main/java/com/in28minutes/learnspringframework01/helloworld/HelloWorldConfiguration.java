@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringframework.helloworld;
+package com.in28minutes.learnspringframework01.helloworld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -86,3 +86,5 @@ public class HelloWorldConfiguration {
 // Spring will throw an exception. You can use @Qualifier to specify which bean to use.
 
 //4: Spring is managing objects and Autowiring them, but we are creating the objects?
+
+//

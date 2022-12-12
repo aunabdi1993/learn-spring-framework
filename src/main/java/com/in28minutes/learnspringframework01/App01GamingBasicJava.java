@@ -1,7 +1,7 @@
-package com.in28minutes.learnspringframework;
+package com.in28minutes.learnspringframework01;
 
-import com.in28minutes.learnspringframework.game.GameRunner;
-import com.in28minutes.learnspringframework.game.PacManGame;
+import com.in28minutes.learnspringframework01.game.GameRunner;
+import com.in28minutes.learnspringframework01.game.PacManGame;
 
 public class App01GamingBasicJava {
     public static void main(String[] args) {
