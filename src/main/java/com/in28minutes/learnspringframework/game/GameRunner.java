@@ -14,5 +14,4 @@ public class GameRunner {
         game.left();
         game.right();
     }
-
 }
