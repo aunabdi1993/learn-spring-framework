@@ -62,3 +62,11 @@ public class DependencyInjectionLauncherApplication {
         }
     }
 }
+
+// @Component - Instance of class implemented by Spring framework - can be used on any class.
+// @Bean - Instance of class implemented by Spring framework - can be used on any method.
+// Dependency - GamingConsole implements GameRunner. GamingConsole is a dependency of GameRunner.
+// @ComponentScan - Spring will scan for @Component and create instances of them.
+// Dependency Injection - Spring will inject the dependencies into the class.
+// Spring Beans - Object managed by Spring framework.
+// Autowiring - Spring will automatically inject the dependencies into the class.
