@@ -1,7 +1,5 @@
-package com.in28minutes.learnspringframework02;
+package com.in28minutes.learnspringframework02.game;
 
-import com.in28minutes.learnspringframework02.game.GameRunner;
-import com.in28minutes.learnspringframework02.game.GamingConsole;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -28,3 +26,9 @@ public class GamingAppLauncherSpringBeans {
 // same type and @Primary is not used.
 
 // @Qualifier has higher priority than @Primary.
+
+// Dependency Injection Types: Constructor Injection, Setter Injection, Field Injection
+
+    // Constructor Injection: The constructor is used to inject the dependencies.
+    // Setter Injection: The setter method is used to inject the dependencies.
+    // Field Injection: Dependency is injected using reflection.
