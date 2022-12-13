@@ -1,9 +1,12 @@
 package com.in28minutes.learnspringframework02.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MarioGame implements GamingConsole {
 
     public void up() {
-        System.out.println("Jump");
+        System.out.println("Mario Jump");
     }
 
     public void down() {

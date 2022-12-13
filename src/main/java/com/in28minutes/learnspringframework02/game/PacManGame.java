@@ -1,5 +1,8 @@
 package com.in28minutes.learnspringframework02.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacManGame implements GamingConsole {
 
         public void up() {
@@ -19,3 +22,6 @@ public class PacManGame implements GamingConsole {
         }
 
 }
+
+// Component can be used to mark a class as a bean without using the Bean annotation. We need to tell Spring
+// where to look for this Bean.
