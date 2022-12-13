@@ -22,3 +22,9 @@ public class GamingAppLauncherSpringBeans {
 
 // @ComponentScan is used to tell Spring where to look for the beans. It is used to tell Spring to scan the
 // package and find the relevant beans.
+
+// @Primary Vs @Qualifier: @Primary is used to tell Spring which bean to use when there are multiple beans
+// of the same type. @Qualifier is used to tell Spring which bean to use when there are multiple beans of the
+// same type and @Primary is not used.
+
+// @Qualifier has higher priority than @Primary.
