@@ -34,3 +34,16 @@ Important Spring Annotations
     - @PreDestroy - Indicates that a method annotated with @PreDestroy is called just before a bean is being removed by the container.
     - @Named - Indicates that an annotated class is a "Named", originally defined by JSR-330.
     - @Inject - Indicates that a field, method or constructor should be injected with a dependency.
+
+
+Important Spring Concepts
+
+    - Dependency Injection - Dependency injection is a software design pattern that implements inversion of control for resolving dependencies. It is a technique whereby one object supplies the dependencies of another object. A dependency is an object that can be used (a service).
+        - Contructor Injection - The dependencies are provided through a class constructor.
+        - Setter Injection - The client exposes a setter method that the injector uses to inject the dependency.
+        - Field Injection - The dependency is resolved and injected into fields.
+    - Inversion of Control - Inversion of control (IoC) is a design principle in which custom-written portions of a computer program receive the flow of control from a generic framework.
+    - Bean Factory - The BeanFactory is the actual container and is responsible for instantiating, configuring, and assembling the beans. The BeanFactory provides ways to configure your application by using XML configuration files.
+    - Application Context - The ApplicationContext is a sub-interface of the BeanFactory. It is responsible for providing the configuration information to the BeanFactory. It is also responsible for initializing all the singleton beans.
+    - Spring Beans - A Spring bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Beans are created with the configuration metadata that you supply to the container.
+    - Auto Wiring - Auto wiring is the automatic injection of beans dependencies. Spring can automatically wire beans together by using the @Autowired annotation on bean properties.
